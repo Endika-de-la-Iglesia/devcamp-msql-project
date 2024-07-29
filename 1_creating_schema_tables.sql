@@ -1,5 +1,7 @@
 CREATE SCHEMA `devcamp-sql-course-project`;
 
+USE `devcamp-sql-course-project`;
+
 CREATE TABLE `students` (
     `students_id` INT AUTO_INCREMENT PRIMARY KEY,
     `students_name` VARCHAR(100) NOT NULL,
